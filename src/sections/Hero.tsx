@@ -5,6 +5,70 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Github, Linkedin, Mail, Code } from "lucide-react";
 
+// Typing Animation Component
+const TypingAnimation = () => {
+  const texts = [
+    // "Full-Stack Developer",
+    "React.js Developer",
+    "Next.js Developer",
+    // "TypeScript Developer",
+    "Frontend Developer",
+    "Software Engineer",
+  ];
+
+  const [displayText, setDisplayText] = useState("");
+  const [textIndex, setTextIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const [isWaiting, setIsWaiting] = useState(false);
+
+  useEffect(() => {
+    const currentText = texts[textIndex];
+
+    if (isWaiting) {
+      const waitTimer = setTimeout(() => {
+        setIsWaiting(false);
+        setIsDeleting(true);
+      }, 2000); // Wait 2 seconds before deleting
+      return () => clearTimeout(waitTimer);
+    }
+
+    if (!isDeleting && charIndex < currentText.length) {
+      // Typing
+      const typingTimer = setTimeout(() => {
+        setDisplayText(currentText.slice(0, charIndex + 1));
+        setCharIndex(charIndex + 1);
+      }, 100);
+      return () => clearTimeout(typingTimer);
+    } else if (!isDeleting && charIndex === currentText.length) {
+      // Finished typing, wait before deleting
+      setIsWaiting(true);
+    } else if (isDeleting && charIndex > 0) {
+      // Deleting
+      const deletingTimer = setTimeout(() => {
+        setDisplayText(currentText.slice(0, charIndex - 1));
+        setCharIndex(charIndex - 1);
+      }, 50);
+      return () => clearTimeout(deletingTimer);
+    } else if (isDeleting && charIndex === 0) {
+      // Finished deleting, move to next text
+      setIsDeleting(false);
+      setTextIndex((textIndex + 1) % texts.length);
+    }
+  }, [charIndex, isDeleting, isWaiting, textIndex, texts]);
+
+  return (
+    <span className='relative'>
+      {displayText}
+      <motion.span
+        className='inline-block w-0.5 h-6 bg-indigo-600 dark:bg-indigo-400 ml-1'
+        animate={{ opacity: [1, 0] }}
+        transition={{ duration: 0.8, repeat: Infinity, repeatType: "reverse" }}
+      />
+    </span>
+  );
+};
+
 function Hero() {
   const [mounted, setMounted] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -102,24 +166,16 @@ function Hero() {
           </span>
         </motion.h1>
 
-        {/* Role */}
-        <motion.p
+        {/* Role with Typing Animation */}
+        <motion.div
           variants={itemVariants}
           className='text-xl md:text-2xl text-slate-600 dark:text-slate-300 font-light mb-8 max-w-2xl mx-auto'
         >
-          Crafting exceptional digital experiences with{" "}
+          <span>I'm a </span>
           <span className='font-medium text-indigo-600 dark:text-indigo-400'>
-            React.js
+            <TypingAnimation />
           </span>
-          ,{" "}
-          <span className='font-medium text-indigo-600 dark:text-indigo-400'>
-            Next.js
-          </span>{" "}
-          and{" "}
-          <span className='font-medium text-indigo-600 dark:text-indigo-400'>
-            TypeScript
-          </span>
-        </motion.p>
+        </motion.div>
 
         {/* Description */}
         <motion.p

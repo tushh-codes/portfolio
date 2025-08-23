@@ -48,20 +48,7 @@ function Projects() {
               >
                 <div className='absolute inset-0 bg-black/20' />
                 <div className='absolute top-5 left-5 text-white'>
-                  <svg
-                    className='w-8 h-8'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'
-                    xmlns='http://www.w3.org/2000/svg'
-                  >
-                    <path
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      strokeWidth='2'
-                      d='M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4'
-                    ></path>
-                  </svg>
+                  <project.icon className='w-8 h-8' />
                 </div>
                 <div className='absolute top-5 right-5 flex space-x-3'>
                   {project.gitLink && (
