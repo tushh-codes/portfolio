@@ -105,7 +105,7 @@ const Navbar = () => {
       height: 0,
       transition: {
         duration: 0.3,
-        easeInOut: "easeInOut"
+        easeInOut: "easeInOut",
       },
     },
     open: {
@@ -113,7 +113,7 @@ const Navbar = () => {
       height: "auto",
       transition: {
         duration: 0.3,
-        easeInOut: "easeInOut"
+        easeInOut: "easeInOut",
       },
     },
   };

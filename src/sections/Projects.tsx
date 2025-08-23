@@ -2,10 +2,7 @@ import { projects } from "@/data/projects";
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 
-
 function Projects() {
-  
-
   return (
     <section
       id='projects'
@@ -30,8 +27,8 @@ function Projects() {
           </h2>
           <div className='w-20 h-1 bg-indigo-600 mx-auto mb-6'></div>
           <p className='text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-            A selection of projects I&apos;ve worked on, showcasing my skills and
-            experience
+            A selection of projects I&apos;ve worked on, showcasing my skills
+            and experience
           </p>
         </motion.div>
 
@@ -178,6 +175,5 @@ function Projects() {
     </section>
   );
 }
-
 
 export default Projects;

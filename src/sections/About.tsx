@@ -17,7 +17,7 @@ function About() {
       transition: {
         staggerChildren: 0.2,
         delayChildren: 0.3,
-        easeInOut: "easeInOut"
+        easeInOut: "easeInOut",
       },
     },
   };
@@ -29,7 +29,7 @@ function About() {
       opacity: 1,
       transition: {
         duration: 0.6,
-        easeInOut: "easeInOut"
+        easeInOut: "easeInOut",
       },
     },
   };
@@ -80,20 +80,20 @@ function About() {
           className='space-y-6 md:text-lg text-md leading-relaxed'
         >
           <p className='dark:text-gray-300 text-gray-800'>
-            I&apos;m a passionate Front-End Developer with 2+ years of experience
-            creating modern, responsive web applications. My expertise lies in
-            React.js, Next.js, and TypeScript, with a strong focus on user
-            experience and performance optimization.
+            I&apos;m a passionate Front-End Developer with 2+ years of
+            experience creating modern, responsive web applications. My
+            expertise lies in React.js, Next.js, and TypeScript, with a strong
+            focus on user experience and performance optimization.
           </p>
 
           <p className='italic text-sm dark:text-indigo-400 text-indigo-950'>
-            &quot;Building responsive, high-performance web experiences that users
-            love.&quot;
+            &quot;Building responsive, high-performance web experiences that
+            users love.&quot;
           </p>
 
           {/* Resume Button */}
           <motion.a
-            href='/Tushar-Rathore-Resume.pdf'
+            href='/Tushar_Rathore_Resume.pdf'
             download
             target='_blank'
             rel='noopener noreferrer'

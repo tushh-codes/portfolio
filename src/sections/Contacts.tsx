@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Code, Github, Linkedin, Mail } from "lucide-react";
 
-
 function Contact() {
   return (
     <section
@@ -26,7 +25,7 @@ function Contact() {
           </span>
         </h2>
         <div className='w-20 h-1 bg-indigo-600 mx-auto mb-6'></div>
-                <p className='text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-6 leading-relaxed'>
+        <p className='text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-6 leading-relaxed'>
           I&apos;m always open to discussing new opportunities and interesting
           projects
         </p>
@@ -41,9 +40,9 @@ function Contact() {
       >
         <div className='text-center'>
           <p className='text-lg text-gray-700 dark:text-gray-300 mb-8'>
-            I&apos;m always open to exciting opportunities — whether it&apos;s full-time
-            roles, freelance projects, tech collaborations, or even a friendly
-            conversation. Let&apos;s connect!
+            I&apos;m always open to exciting opportunities — whether it&apos;s
+            full-time roles, freelance projects, tech collaborations, or even a
+            friendly conversation. Let&apos;s connect!
           </p>
 
           <motion.a
@@ -88,6 +87,5 @@ function Contact() {
     </section>
   );
 }
-
 
 export default Contact;

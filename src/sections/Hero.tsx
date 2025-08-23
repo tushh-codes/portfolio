@@ -3,12 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import {
-  Github,
-  Linkedin,
-  Mail,
-  Code,
-} from "lucide-react";
+import { Github, Linkedin, Mail, Code } from "lucide-react";
 
 function Hero() {
   const [mounted, setMounted] = useState(false);
@@ -35,7 +30,7 @@ function Hero() {
       opacity: 1,
       transition: {
         duration: 0.6,
-        easeInOut: "easeInOut"
+        easeInOut: "easeInOut",
       },
     },
   };
@@ -227,7 +222,7 @@ function Hero() {
       </motion.div>
 
       {/* Scroll indicator */}
-        {/* <motion.div
+      {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
