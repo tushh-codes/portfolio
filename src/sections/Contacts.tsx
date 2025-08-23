@@ -1,9 +1,7 @@
 "use client";
 
-import SectionTitle from "@/components/SectionTitle";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { FiCode, FiGithub, FiLinkedin, FiMail } from "react-icons/fi";
+import { Code, Github, Linkedin, Mail } from "lucide-react";
 
 
 function Contact() {
@@ -28,8 +26,8 @@ function Contact() {
           </span>
         </h2>
         <div className='w-20 h-1 bg-indigo-600 mx-auto mb-6'></div>
-        <p className='text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-          I'm always open to discussing new opportunities and interesting
+                <p className='text-xl md:text-2xl text-gray-800 dark:text-gray-200 mb-6 leading-relaxed'>
+          I&apos;m always open to discussing new opportunities and interesting
           projects
         </p>
       </motion.div>
@@ -43,9 +41,9 @@ function Contact() {
       >
         <div className='text-center'>
           <p className='text-lg text-gray-700 dark:text-gray-300 mb-8'>
-            I'm always open to exciting opportunities — whether it's full-time
+            I&apos;m always open to exciting opportunities — whether it&apos;s full-time
             roles, freelance projects, tech collaborations, or even a friendly
-            conversation. Let's connect!
+            conversation. Let&apos;s connect!
           </p>
 
           <motion.a
@@ -55,7 +53,7 @@ function Contact() {
             whileHover={{ scale: 1.05 }}
             className='inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-medium rounded-lg transition-all duration-200 shadow-lg shadow-indigo-500/20 dark:shadow-indigo-900/30'
           >
-            <FiLinkedin className='w-5 h-5' />
+            <Linkedin className='w-5 h-5' />
             Reach Me on LinkedIn
           </motion.a>
 
@@ -66,7 +64,7 @@ function Contact() {
               className='p-3 rounded-full bg-gray-100 dark:bg-slate-800 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors'
               aria-label='Email'
             >
-              <FiMail className='w-6 h-6' />
+              <Mail className='w-6 h-6' />
             </motion.a>
             <motion.a
               href='https://github.com/tushh-codes'
@@ -74,7 +72,7 @@ function Contact() {
               className='p-3 rounded-full bg-gray-100 dark:bg-slate-800 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors'
               aria-label='GitHub'
             >
-              <FiGithub className='w-6 h-6' />
+              <Github className='w-6 h-6' />
             </motion.a>
             <motion.a
               href='https://leetcode.com/tushh_r/'
@@ -82,7 +80,7 @@ function Contact() {
               className='p-3 rounded-full bg-gray-100 dark:bg-slate-800 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors'
               aria-label='LeetCode'
             >
-              <FiCode className='w-6 h-6' />
+              <Code className='w-6 h-6' />
             </motion.a>
           </div>
         </div>

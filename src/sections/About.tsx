@@ -1,7 +1,7 @@
 "use client";
 
 import { Download, Code } from "lucide-react";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 // About Section with modern styling
@@ -80,15 +80,15 @@ function About() {
           className='space-y-6 md:text-lg text-md leading-relaxed'
         >
           <p className='dark:text-gray-300 text-gray-800'>
-            I'm a passionate Front-End Developer with 2+ years of experience
+            I&apos;m a passionate Front-End Developer with 2+ years of experience
             creating modern, responsive web applications. My expertise lies in
             React.js, Next.js, and TypeScript, with a strong focus on user
             experience and performance optimization.
           </p>
 
           <p className='italic text-sm dark:text-indigo-400 text-indigo-950'>
-            "Building responsive, high-performance web experiences that users
-            love."
+            &quot;Building responsive, high-performance web experiences that users
+            love.&quot;
           </p>
 
           {/* Resume Button */}

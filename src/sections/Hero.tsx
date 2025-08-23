@@ -1,7 +1,6 @@
 "use client";
 
-import { easeIn, easeInOut, motion } from "framer-motion";
-import { useTheme } from "next-themes";
+import { motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import {
@@ -9,12 +8,9 @@ import {
   Linkedin,
   Mail,
   Code,
-  ChevronDown,
-  Download,
 } from "lucide-react";
 
 function Hero() {
-  const { theme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
 

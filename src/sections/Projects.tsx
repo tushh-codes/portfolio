@@ -1,9 +1,6 @@
-import SectionTitle from "@/components/SectionTitle";
 import { projects } from "@/data/projects";
-import { ExternalLink, Github } from "lucide-react";
-import Link from "next/link";
 import { motion } from "framer-motion";
-import { FiGithub } from "react-icons/fi";
+import { Github } from "lucide-react";
 
 
 function Projects() {
@@ -33,7 +30,7 @@ function Projects() {
           </h2>
           <div className='w-20 h-1 bg-indigo-600 mx-auto mb-6'></div>
           <p className='text-slate-600 dark:text-slate-300 max-w-2xl mx-auto'>
-            A selection of projects I've worked on, showcasing my skills and
+            A selection of projects I&apos;ve worked on, showcasing my skills and
             experience
           </p>
         </motion.div>
@@ -78,7 +75,7 @@ function Projects() {
                       whileHover={{ scale: 1.1 }}
                       className='p-2 bg-white/20 rounded-lg hover:bg-white/30 transition-colors'
                     >
-                      <FiGithub className='w-5 h-5 text-white' />
+                      <Github className='w-5 h-5 text-white' />
                     </motion.a>
                   )}
                   {project.liveLink && (
@@ -173,7 +170,7 @@ function Projects() {
             whileHover={{ scale: 1.05 }}
             className='inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-medium rounded-lg transition-all duration-200 shadow-lg shadow-indigo-500/20 dark:shadow-indigo-900/30'
           >
-            <FiGithub className='w-5 h-5' />
+            <Github className='w-5 h-5' />
             View More on GitHub
           </motion.a>
         </motion.div>

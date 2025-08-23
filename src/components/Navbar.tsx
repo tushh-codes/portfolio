@@ -1,10 +1,9 @@
 "use client";
 
 import { Github, Linkedin, Mail, Menu, X } from "lucide-react";
-import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, easeIn } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import ThemeToggle from "../app/ThemeToggle";
 import Logo from "./Logo";
 

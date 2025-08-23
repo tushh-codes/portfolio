@@ -1,6 +1,4 @@
-import SectionTitle from "@/components/SectionTitle";
 import { experience } from "@/data/experience";
-import { Building, Calendar, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 
 
@@ -27,7 +25,7 @@ function Experience() {
         </h2>
         <div className="w-20 h-1 bg-indigo-600 mx-auto mb-6"></div>
         <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-          My professional journey and the roles I've undertaken
+          My professional journey and the roles I&apos;ve undertaken
         </p>
       </motion.div>
 
