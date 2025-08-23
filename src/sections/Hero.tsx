@@ -7,15 +7,6 @@ import { Github, Linkedin, Mail, Code } from "lucide-react";
 
 // Typing Animation Component
 const TypingAnimation = () => {
-  const texts = [
-    // "Full-Stack Developer",
-    "React.js Developer",
-    "Next.js Developer",
-    // "TypeScript Developer",
-    "Frontend Developer",
-    "Software Engineer",
-  ];
-
   const [displayText, setDisplayText] = useState("");
   const [textIndex, setTextIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
@@ -23,6 +14,15 @@ const TypingAnimation = () => {
   const [isWaiting, setIsWaiting] = useState(false);
 
   useEffect(() => {
+    const texts = [
+      // "Full-Stack Developer",
+      "React.js Developer",
+      "Next.js Developer",
+      // "TypeScript Developer",
+      "Frontend Developer",
+      "Software Engineer",
+    ];
+
     const currentText = texts[textIndex];
 
     if (isWaiting) {
@@ -55,7 +55,7 @@ const TypingAnimation = () => {
       setIsDeleting(false);
       setTextIndex((textIndex + 1) % texts.length);
     }
-  }, [charIndex, isDeleting, isWaiting, textIndex, texts]);
+  }, [charIndex, isDeleting, isWaiting, textIndex]);
 
   return (
     <span className='relative'>
@@ -171,7 +171,7 @@ function Hero() {
           variants={itemVariants}
           className='text-xl md:text-2xl text-slate-600 dark:text-slate-300 font-light mb-8 max-w-2xl mx-auto'
         >
-          <span>I'm a </span>
+          <span>I&apos;m a </span>
           <span className='font-medium text-indigo-600 dark:text-indigo-400'>
             <TypingAnimation />
           </span>

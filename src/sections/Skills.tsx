@@ -1,10 +1,9 @@
 "use client";
 
-import SectionTitle from "@/components/SectionTitle";
 import { allSkills, skillTabs } from "@/data/skills";
 import Image from "next/image";
 import { useState } from "react";
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 function Skills() {
   const [activeTab, setActiveTab] = useState("All");
