@@ -27,7 +27,7 @@ const Logo: FC = () => {
       {/* Professional Text Content */}
       <div className='flex flex-col justify-center'>
         <h1 className='text-lg font-bold text-gray-900 dark:text-white tracking-tight leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-300'>
-          Frontend Developer
+          Full Stack Developer
         </h1>
         <div className='flex items-center gap-2'>
           <p className='text-xs text-gray-500 dark:text-gray-400 font-semibold uppercase tracking-widest'>

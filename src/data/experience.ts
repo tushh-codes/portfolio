@@ -1,23 +1,24 @@
 export const experience = [
   {
-    role: "Front End Developer",
+    role: "Full Stack Developer",
     company: "Webanix Solutions",
     from: "Dec 2023",
     to: "Present",
     location: "Udaipur, Rajasthan",
     desc: [
-      "Developed responsive, high-performance web applications using React.js, Next.js, Tailwind, Ant Design, improving UI load times by up to 30%",
-      "Delivered enterprise-level systems including HRMS, Production Management, Food Court Management, and Photography Salon Tracker, used by 5k+ employees and external clients",
-      "Optimized workflows, dashboards, and reporting tools, reducing manual processes by 40–60%",
-      "Built reusable UI components and integrated APIs to enhance development efficiency",
+      "Developed and maintained full-stack web applications using Next.js, Node.js, Express.js, and SQL, enhancing scalability and maintainability",
+      "Delivered enterprise-grade systems including HRMS, CMS-based platforms, and management dashboards, improving data visibility and workflow efficiency by 40–60%",
+      "Integrated secure authentication, optimized REST APIs, implemented SEO best practices, and deployed applications on cPanel for production",
+      "Built reusable UI components using React.js, Tailwind CSS, and Ant Design to enhance development efficiency",
     ],
     techUsed: [
-      "React.js",
       "Next.js",
+      "Node.js",
+      "Express.js",
       "TypeScript",
+      "SQL",
       "Tailwind CSS",
       "Ant Design",
-      "JavaScript",
     ],
   },
   {
@@ -27,11 +28,11 @@ export const experience = [
     to: "Dec 2023",
     location: "Udaipur, Rajasthan",
     desc: [
-      "Built reusable UI components, integrated APIs, and improved delivery speed by 25%",
+      "Collaborated in UI/UX development and API integrations using React.js and Next.js, improving code modularity and delivery timelines by 25%",
       "Collaborated with senior developers to learn best practices in React development",
       "Contributed to enterprise application development with focus on user experience",
     ],
-    techUsed: ["React.js", "JavaScript", "CSS", "HTML", "Git"],
+    techUsed: ["React.js", "Next.js", "JavaScript", "CSS", "HTML", "Git"],
   },
   {
     role: "Web Developer Intern",

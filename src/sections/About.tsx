@@ -1,6 +1,6 @@
 "use client";
 
-import { Download, Code } from "lucide-react";
+import { Download, Code, Server } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
@@ -80,15 +80,15 @@ function About() {
           className='space-y-6 md:text-lg text-md leading-relaxed'
         >
           <p className='dark:text-gray-300 text-gray-800'>
-            I&apos;m a passionate Front-End Developer with 2+ years of
-            experience creating modern, responsive web applications. My
-            expertise lies in React.js, Next.js, and TypeScript, with a strong
-            focus on user experience and performance optimization.
+            I&apos;m a passionate Full Stack Developer with 2+ years of
+            experience building scalable web applications. My expertise spans
+            React.js, Next.js, Node.js, Express.js, and SQL, delivering robust
+            front-end interfaces and efficient back-end APIs.
           </p>
 
           <p className='italic text-sm dark:text-indigo-400 text-indigo-950'>
-            &quot;Building responsive, high-performance web experiences that
-            users love.&quot;
+            &quot;Building scalable, full-stack solutions that deliver seamless
+            user experiences.&quot;
           </p>
 
           {/* Resume Button */}
@@ -116,28 +116,14 @@ function About() {
                 <Code className='w-6 h-6 text-indigo-900 dark:text-indigo-400' />
               ),
               title: "Frontend Development",
-              description:
-                "Specializing in React, Next.js and modern JavaScript",
+              description: "React.js, Next.js, TypeScript, and Tailwind CSS",
             },
             {
               icon: (
-                <svg
-                  className='w-6 h-6 text-indigo-900 dark:text-indigo-400'
-                  fill='none'
-                  stroke='currentColor'
-                  viewBox='0 0 24 24'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    d='M13 10V3L4 14h7v7l9-11h-7z'
-                  ></path>
-                </svg>
+                <Server className='w-6 h-6 text-indigo-900 dark:text-indigo-400' />
               ),
-              title: "Performance Optimization",
-              description: "Enhancing application speed and user experience",
+              title: "Backend Development",
+              description: "Node.js, Express.js, REST APIs, and SQL databases",
             },
             {
               icon: (

@@ -51,9 +51,9 @@ const Footer = () => {
               Tushar Rathore
             </h2>
             <p className='text-gray-600 dark:text-gray-400 mb-6 max-w-md leading-relaxed'>
-              Front-End Developer with 2+ years of experience building scalable,
-              responsive web applications using React.js, Next.js, and
-              TypeScript. Open to exciting opportunities and collaborations.
+              Full Stack Developer with 2+ years of experience building scalable
+              web applications using React.js, Next.js, Node.js, Express.js, and
+              SQL. Open to exciting opportunities and collaborations.
             </p>
 
             <div className='space-y-3 text-sm'>
@@ -165,9 +165,9 @@ const Footer = () => {
             <span>& Next.js</span>
           </div>
           <div className='md:flex flex-wrap justify-center gap-3 md:gap-6 hidden'>
-            <span>Front-End Developer</span>
+            <span>Full Stack Developer</span>
             <span className='hidden sm:inline'>•</span>
-            <span>React.js & Next.js</span>
+            <span>React.js, Next.js & Node.js</span>
             <span className='hidden sm:inline'>•</span>
             <span>Open to Opportunities</span>
           </div>

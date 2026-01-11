@@ -1,8 +1,8 @@
 // data/personalInfo.ts
-import { Code, Database, MonitorSmartphone, Smartphone } from "lucide-react";
+import { Code, Database, MonitorSmartphone, Server } from "lucide-react";
 
 export const personalInfo = {
-  about: `Front-End Developer with 2 years of experience in building scalable, responsive web applications using React.js, Next.js, TypeScript, and MERN stack, delivering high-quality solutions that enhance user experience and performance.`,
+  about: `Full Stack Developer with 2 years of experience specializing in building scalable web applications using React.js, Next.js, Node.js, Express.js, and SQL. Skilled in designing robust front-end interfaces and efficient back-end APIs, integrating databases, and optimizing performance for seamless user experiences across platforms.`,
 
   highlights: [
     {
@@ -11,19 +11,19 @@ export const personalInfo = {
       description: "Expert in React.js, Next.js, and TypeScript",
     },
     {
-      icon: MonitorSmartphone,
-      title: "Responsive Design",
-      description: "Mobile-first approach with Tailwind CSS",
+      icon: Server,
+      title: "Backend Development",
+      description: "Node.js, Express.js, and RESTful APIs",
     },
     {
       icon: Database,
-      title: "Full Stack Development",
-      description: "MERN stack and enterprise solutions",
+      title: "Database Integration",
+      description: "MySQL, MongoDB, and secure authentication",
     },
     {
-      icon: Smartphone,
-      title: "UI/UX Performance",
-      description: "Optimized applications with 30% faster load times",
+      icon: MonitorSmartphone,
+      title: "Full Stack Solutions",
+      description: "End-to-end enterprise applications",
     },
   ],
 };

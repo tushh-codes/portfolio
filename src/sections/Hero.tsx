@@ -16,11 +16,10 @@ const TypingAnimation = () => {
 
   useEffect(() => {
     const texts = [
-      // "Full-Stack Developer",
+      "Full Stack Developer",
       "React.js Developer",
       "Next.js Developer",
-      // "TypeScript Developer",
-      "Frontend Developer",
+      "Node.js Developer",
       "Software Engineer",
     ];
 
@@ -186,9 +185,8 @@ function Hero() {
               variants={itemVariants}
               className='text-lg text-slate-500 dark:text-slate-400 mb-10 leading-relaxed'
             >
-              Front-End Developer with 2+ years of experience building scalable,
-              responsive web applications that enhance user experience and
-              performance.
+              Full Stack Developer with 2+ years of experience building scalable
+              web applications using React.js, Next.js, Node.js, and SQL.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -304,7 +302,7 @@ function Hero() {
                 >
                   <Image
                     src='/pic.webp'
-                    alt='Tushar Rathore - Frontend Developer'
+                    alt='Tushar Rathore - Full Stack Developer'
                     fill
                     className='object-cover object-center filter brightness-110 contrast-105 dark:brightness-95 dark:contrast-110 transition-all duration-300 group-hover:scale-110'
                     sizes='(max-width: 768px) 320px, (max-width: 1024px) 384px, 400px'
@@ -357,20 +355,20 @@ function Hero() {
 
       {/* Scroll indicator */}
       <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.5 }}
-          className='absolute bottom-20 lg:block hidden left-1/2 transform -translate-x-1/2 z-10'
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.5 }}
+        className='absolute bottom-20 lg:block hidden left-1/2 transform -translate-x-1/2 z-10'
+      >
+        <motion.div
+          animate={{ y: [0, 10, 0] }}
+          transition={{ duration: 2, repeat: Infinity }}
+          className='flex flex-col items-center text-slate-500 dark:text-slate-400'
         >
-          <motion.div
-            animate={{ y: [0, 10, 0] }}
-            transition={{ duration: 2, repeat: Infinity }}
-            className='flex flex-col items-center text-slate-500 dark:text-slate-400'
-          >
-            <span className='text-sm mb-2'>Scroll down</span>
-            <ChevronDown className='w-5 h-5' />
-          </motion.div>
+          <span className='text-sm mb-2'>Scroll down</span>
+          <ChevronDown className='w-5 h-5' />
         </motion.div>
+      </motion.div>
     </section>
   );
 }

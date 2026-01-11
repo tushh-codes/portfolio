@@ -21,10 +21,14 @@ export const allSkills = [
   { name: "React", img: skillImages.React, category: "Frontend" },
   { name: "Next.js", img: skillImages.Nextjs, category: "Frontend" },
   { name: "Tailwind CSS", img: skillImages["Tailwind"], category: "Frontend" },
+  { name: "Redux", img: skillImages.React, category: "Frontend" },
+  { name: "React Query", img: skillImages.React, category: "Frontend" },
+  { name: "Ant Design", img: skillImages.React, category: "Frontend" },
   { name: "Bootstrap", img: skillImages.Bootstrap, category: "Frontend" },
 
   // Backend
   { name: "Node.js", img: skillImages.JavaScript, category: "Backend" },
+  { name: "Express.js", img: skillImages.JavaScript, category: "Backend" },
 
   // Full Stack
 

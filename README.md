@@ -1,20 +1,20 @@
 # 🌟 Tushar Rathore - Portfolio
 
-> **Front-End Developer specializing in React.js, Next.js, and TypeScript**
+> **Full Stack Developer specializing in React.js, Next.js, Node.js, Express.js, and SQL**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://your-portfolio-url.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)](https://portfolio-tushh-r.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tushar-rathore-9927761b3/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/tushh-codes)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Solve-orange?style=for-the-badge&logo=leetcode)](https://leetcode.com/tushh_r/)
 
 ## 👨‍💻 About Me
 
-Front-End Developer with **2+ years of experience** building scalable, responsive web applications using React.js, Next.js, TypeScript, and MERN stack. Passionate about delivering high-quality solutions that enhance user experience and performance.
+Full Stack Developer with **2+ years of experience** specializing in building scalable web applications using React.js, Next.js, Node.js, Express.js, and SQL. Skilled in designing robust front-end interfaces and efficient back-end APIs, integrating databases, and optimizing performance for seamless user experiences across platforms.
 
-- 🔭 Currently working at **Webanix Solutions** as Front-End Developer
-- 🌱 Specialized in **React.js, Next.js, TypeScript, Tailwind CSS**
+- 🔭 Currently working at **Webanix Solutions** as Full Stack Developer
+- 🌱 Specialized in **React.js, Next.js, Node.js, Express.js, TypeScript, SQL**
 - 💼 Built enterprise systems used by **5k+ employees** and external clients
-- 📈 Improved UI load times by **30%** and reduced manual processes by **40-60%**
+- 📈 Developed full-stack applications with **front-end and back-end** integration
 - 📍 Based in **Udaipur, Rajasthan, India**
 
 ## 🛠️ Tech Stack
@@ -32,9 +32,9 @@ Front-End Developer with **2+ years of experience** building scalable, responsiv
 ### Backend & Databases
 
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### Tools & Technologies
 
@@ -51,7 +51,7 @@ Front-End Developer with **2+ years of experience** building scalable, responsiv
 
 - Complete employee lifecycle management with onboarding, payroll, and leave management
 - Advanced reporting and analytics with role-based dashboards
-- **Tech:** Next.js, TypeScript, Tailwind CSS, Ant Design
+- **Tech:** Next.js, Node.js, TypeScript, Tailwind CSS, Ant Design, SQL
 - **Impact:** Reduced HR operational workload by 50%
 - [🔗 Live Demo](http://115.241.153.220:10000/login)
 
@@ -103,16 +103,16 @@ Front-End Developer with **2+ years of experience** building scalable, responsiv
 
 ## 💼 Professional Experience
 
-### **Front End Developer** - Webanix Solutions _(Dec 2023 - Present)_
+### **Full Stack Developer** - Webanix Solutions _(Dec 2023 - Present)_
 
-- Developed enterprise-level systems including HRMS, Production Management, and Food Court Management
-- Improved UI load times by up to 30% using React.js, Next.js, and Tailwind CSS
-- Optimized workflows and dashboards, reducing manual processes by 40-60%
+- Developed and maintained full-stack web applications using Next.js, Node.js, Express.js, and SQL
+- Delivered enterprise-grade systems including HRMS, CMS-based platforms, and management dashboards
+- Integrated secure authentication, optimized REST APIs, and deployed applications on cPanel
 
 ### **Front End Developer Intern** - Webanix Solutions _(Oct 2023 - Dec 2023)_
 
-- Built reusable UI components and integrated APIs
-- Improved delivery speed by 25%
+- Collaborated in UI/UX development and API integrations using React.js and Next.js
+- Improved code modularity and delivery timelines by 25%
 
 ### **Web Developer Intern** - Zeetron Networks _(Jul 2022 - Dec 2022)_
 
